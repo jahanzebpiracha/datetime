@@ -3,7 +3,7 @@ import datetime
 import json
 
 # Generate a random number between 1 and 5
-random_number = random.randint(1, 5)
+random_number = random.randint(1, 6)
 
 # Get the current hour
 current_hour = datetime.datetime.now().hour
