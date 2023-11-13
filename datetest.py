@@ -1,7 +1,7 @@
 import unittest
-from datetime import get_current_year, is_leap_year
+from harnesspythontest import get_current_year, is_leap_year
 
-class TestDateUtils(unittest.TestCase):
+class Testharnesspythontest(unittest.TestCase):
 
     def test_get_current_year(self):
         current_year = get_current_year()
